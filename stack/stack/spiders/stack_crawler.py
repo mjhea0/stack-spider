@@ -10,7 +10,7 @@ class StackCrawlerSpider(CrawlSpider):
     name = 'stack_crawler'
     allowed_domains = ['stackoverflow.com']
     start_urls = [
-        'http://stackoverflow.com/questions?pagesize=50&sort=newest'
+        'https://stackoverflow.com/questions?pagesize=50&sort=newest'
     ]
 
     rules = [

@@ -9,7 +9,7 @@ class StackSpider(CrawlSpider):
     name = "stackcrawl"
     allowed_domains = ["stackoverflow.com"]
     start_urls = [
-        "http://stackoverflow.com/questions?sort=newest",
+        "https://stackoverflow.com/questions?sort=newest",
     ]
     rules = (
         Rule(
